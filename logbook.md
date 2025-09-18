@@ -59,9 +59,9 @@ git remote set-url <REMOTENAME> <URL> (change remote URL)
 
 **NOTE: branches are case-sensitive**
 
-1. git branch <BRANCHNAME> (creation of new branch)
+1. git checkout -b <BRANCHNAME> (creation of new branch)
 
-2. git checkout <BRANCHNAME> (go into stated branch), (-b to add new branch)
+2. git checkout <BRANCHNAME> (go into stated branch),
 
 3. git push origin <BRANCHNAME> (update fork)
 
