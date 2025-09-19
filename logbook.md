@@ -37,7 +37,7 @@
 
 1. git remote add origin <URLFROMGITHUB> (local repo connects to the remote repository)
 
-2. git push origin <master> (sends a branch called master branch to the repo)
+2. git push -u origin <master/main> (sends a branch called master branch to the repo)
 
 3. git pull <remotename> (e.g origin) <branchname> (e.g master)
 
@@ -63,7 +63,9 @@ git remote set-url <REMOTENAME> <URL> (change remote URL)
 
 2. git checkout <BRANCHNAME> (go into stated branch)
 
-3. git push origin <BRANCHNAME> (update fork)
+3. git checout -b <branchname> (creates new branch)
+
+4. git push origin <BRANCHNAME> (update fork)
 
 git branch (list branches)
 
@@ -72,6 +74,8 @@ git branch -m <newname> (rename branch)
 **PULLING:**
 
 1. git pull <REMOTENAME> <BRANCHNAME> (pulls changes from the repo)
+
+2. git fetch --dry-run (checks changes before pulling)
 
 **PULL REQUEST**
 
